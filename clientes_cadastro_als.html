@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+		<meta charset="utf-8">
+		<title>Intranet - Cadastro de Clientes - Aliseu</title>
+		<meta name="author" content="Kumike Telecomunicações Ltda - ME">
+		<meta name="Description" content="Intranet Kumike Telecom">
+		<link rel="stylesheet" href="_css/estilo.css">
+		<link rel="stylesheet" href="_css/forms.css">		
+</head>
+
+<body>
+
+<div id="interface">
+	<header id="cabecalho"></header>
+	
+	<nav> 
+	
+	<p>
+	<a href="clientes_consulta_als.html">Consulta clientes</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+	<a href= "os_consulta_als.html">Consulta O.S.</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+	</p>
+		
+	</nav>
+			
+<section id="principal">
+	<h1>Perfil - ADM</h1>
+	<h2>Cadastro de Clientes</h2>
+		<form id="cad_chamadas_als" method="post" action="clientes_consulta_mostrar_als.php">
+		<fieldset id="chama_als">
+		<legend id="chamadas_als">Cadastro de Chamadas - Aliseu</legend>
+		
+		
+		<p><input class="campo" type="text" name="cliente_als" id="nome_cliente_als" size="47" maxlength="30" placeholder="Nome do cliente" autofocus required=""></p>
+		
+		<p><input class="campo" type="text" name="end_als" id="end_cliente_als" size="35" maxlength="90" placeholder="Endereço: Rua / Av  ...">&nbsp;<input class="campo" type="text" name="num_als" id="numero_als" size="5" maxlength="10" placeholder="Nº">&nbsp;<input class="campo" type="text" name="comp_als" id="com_end_als" size="10" maxlength="20" placeholder="Complemento"></p>
+		<p><input class="campo" type="text" name="bairro_als" id="cad_bairro_als" size="17" maxlength="30" placeholder="Bairro">&nbsp;<input class="campo" type="text" name="cid_als" id="cad_cid_als" size="17" maxlength="30" placeholder="Cidade">&nbsp;<input class="campo" type="text" name="cep_als" id="cad_cep_als" size="16" maxlength="30" placeholder="CEP: 00000-000"></p>
+		<p>(<input class="campo" type="text" name="ddd1" id="ddd1" size="2" value="11">)<input class="campo" type="tel" name="fixo_als" id="tel_fixo_als" size="16" placeholder="Telefone" required="">(<input class="campo" type="text" name="ddd2" id="ddd2" size="2">)<input class="campo" type="tel" name="cel_als" id="tel_cel_als" size="16" placeholder="Telefone 2"><input class="campo" type="email" name="email_als" id="cad_email_als" size="18" placeholder="E-mail @"></p>
+		
+   			<p align="center"><input class="buttons" type="submit" value="Salvar"></p>
+			</fieldset>
+		   	</form>		
+</section>
+
+<aside id="lateral"> 
+	<article>
+		<h1>Informações Gerais</h1>
+		<h2>Minhas atividades</h2>
+		<p>Contatos - Clientes - Parceiros - Fornecedores </p>
+	</article>
+</aside>
+
+<footer id="rodape">
+	<p>Copyright 2018 &copy; - by Kumike Telecommunicações Ltda - ME<br/> 
+	<a href="http://facebook.com" target="_blank">Facebook</a> | 
+	<a href="http:twitter.com" target="_blank">Twitter</a></p>
+</footer>
+</div>
+	
+</body>
+
+</html>
